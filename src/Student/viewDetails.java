@@ -135,7 +135,7 @@ public class viewDetails implements ActionListener{
         contactInformationT.setBounds(400, 205, 100, 20);
         viewFrame.add(contactInformationT);
 
-        backBtn = new JButton("Back");
+        backBtn = new JButton("Main Page");
         backBtn.addActionListener(this);
         backBtn.setBounds(350,320,150, 30);
         backBtn.setBackground(Color.darkGray);
