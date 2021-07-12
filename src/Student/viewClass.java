@@ -45,7 +45,7 @@ public class viewClass implements ActionListener {
         viewBtn.addActionListener(this);
         viewFrame.add(viewBtn);
 
-        backBtn = new JButton("Back");
+        backBtn = new JButton("Main Page");
         backBtn.setBounds(100, 250, 120, 25);
         backBtn.setBackground(Color.darkGray);
         backBtn.setForeground(Color.white);

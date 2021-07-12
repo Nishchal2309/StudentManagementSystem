@@ -129,7 +129,7 @@ public class addStudent implements ActionListener {
         submit.addActionListener(this);
         imageLabel.add(submit);
 
-        back = new JButton("Back");
+        back = new JButton("Main Page");
         back.setBounds(150, 450, 150, 30);
         back.setBackground(Color.darkGray);
         back.setForeground(Color.white);

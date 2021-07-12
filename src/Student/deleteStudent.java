@@ -56,7 +56,7 @@ public class deleteStudent implements ActionListener {
         deleteBtn.addActionListener(this);
         imageLabel.add(deleteBtn);
 
-        backBtn = new JButton("Back");
+        backBtn = new JButton("Main Page");
         backBtn.setBounds(100, 330, 120, 25);
         backBtn.setBackground(Color.darkGray);
         backBtn.setForeground(Color.white);
