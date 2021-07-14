@@ -23,7 +23,7 @@ public class viewDetails implements ActionListener{
             String executeQuery = "select * from students where `studentNumber`='"+studentNumber+"'";
             ResultSet rSet = connObj.queries.executeQuery(executeQuery);
 
-            while(rSet.next()){
+            if(rSet.next()){
                 name1 = rSet.getString("name");
                 guardianName1 = rSet.getString("guardian");
                 emailId1 = rSet.getString("emailId");

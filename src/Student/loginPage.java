@@ -13,6 +13,7 @@ public class loginPage implements ActionListener{
     JTextField userText = new JTextField();
     JPasswordField passText = new JPasswordField();
     JButton loginButton;
+    JLabel heading;
 
     public void displayLoginPage(){
 
@@ -23,14 +24,17 @@ public class loginPage implements ActionListener{
         loginFrame.setLayout(null);
         loginFrame.setVisible(true);
 
-        JLabel test = new JLabel();
-
+        heading = new JLabel("Login");
+        heading.setBounds(150,0,150, 35);
+        heading.setFont(new Font("serif", Font.BOLD, 30));
+        heading.setForeground(Color.black);
+        loginFrame.add(heading);
 
         studentLabel = new JLabel("Username :");
         studentLabel.setFont(new Font("serif", Font.BOLD, 20));
-        studentLabel.setBounds(20, 40, 150, 20);
+        studentLabel.setBounds(20, 50, 150, 20);
         loginFrame.add(studentLabel);
-        userText.setBounds(150, 40, 120, 25);
+        userText.setBounds(150, 50, 120, 25);
         loginFrame.add(userText);
 
         passwordLabel = new JLabel("Password :");

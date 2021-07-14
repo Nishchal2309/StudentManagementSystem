@@ -84,8 +84,8 @@ public class displayPage implements ActionListener{
         if(aP.getSource()==btn1){
             frame.setVisible(false);
             // call login page here
-            loginPage obj = new loginPage();
-            obj.displayLoginPage();
+            optionPage optionObj = new optionPage();
+            optionObj.optionPageCall();
         }
     }
 
